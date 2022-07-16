@@ -17,9 +17,6 @@ const Search = styled("div")(({ theme }) => ({
     padding: "0 10px",
     borderRadius: theme.shape.borderRadius,
     width: "40%",
-    [theme.breakpoints.down("sm")]:{
-       marginRight:"8rem"
-    }
   }));
 
   const Icons = styled(Box)(({ theme }) => ({
